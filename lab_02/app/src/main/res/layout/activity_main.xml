@@ -54,21 +54,23 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <EditText
                 android:id="@+id/weight_edit_view"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:textColor="@color/text_hint"
+                android:textColor="@color/white"
                 android:textSize="60sp"
                 android:inputType="numberDecimal"
                 android:hint="70"
+                android:textColorHint="@color/text_hint"
                 />
 
     <TextView
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textColor="@color/white"
@@ -77,8 +79,11 @@
         android:text="Kg"
 
         />
+
         </LinearLayout>
+
     </LinearLayout>
+
         </androidx.cardview.widget.CardView>
     //
     <androidx.cardview.widget.CardView
@@ -117,17 +122,18 @@
 
                 <EditText
                     android:id="@+id/height_edit_view"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:textColor="@color/text_hint"
+                    android:textColor="@color/white"
                     android:textSize="60sp"
                     android:inputType="numberDecimal"
                     android:hint="180"
+                    android:textColorHint="@color/text_hint"
                     />
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@color/white"
