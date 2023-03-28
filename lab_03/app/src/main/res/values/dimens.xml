@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="high_gap">64dp</dimen>
+    <dimen name="medium_gap">16dp</dimen>
+    <dimen name="low_gap">8dp</dimen>
+</resources>

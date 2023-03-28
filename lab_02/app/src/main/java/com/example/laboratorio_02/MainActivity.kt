@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
+/*
     private fun binding(){
-        weightEditText = findViewById(R.id)
+        weightEditText = findViewById(R.id.weight_edit_view)
     }
 
     private  fun setListener(){
@@ -40,14 +40,14 @@ class MainActivity : AppCompatActivity() {
         when{
             weight.isNullOrEmpty() -> {
                 Toast.makeText(this, "weight is empty", Toast.LENGTH_SHORT).show()
-                return false
+                return false.toString()
             }
             height.isNullOrEmpty() -> {
                 Toast.makeText(this, "weight is empty", Toast.LENGTH_SHORT).show()
-                return false
+                return false.toString()
             }
         }
-        return true
+        return true.toString()
     }
 
     private fun displayResult(bmi:Float){
@@ -79,6 +79,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         resultTextView.setTextColor(ContextCompat. getColor(this,color))
-        resulTextView.text = informationResult
-    }
+        resultTextView.text = informationResult
+    }*/
 }
