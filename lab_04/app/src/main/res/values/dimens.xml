@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_pad">32</dimen>
+    <dimen name="initial">32dp</dimen>
+    <dimen name="space_pad">24dp</dimen>
+    <dimen name="side_pad">8dp</dimen>
+</resources>
